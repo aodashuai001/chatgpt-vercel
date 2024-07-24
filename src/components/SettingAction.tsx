@@ -65,6 +65,8 @@ export default function SettingAction(props: {
                 })
               }}
             >
+              <option value="gpt-4o">gpt-4o</option>
+              <option value="gpt-4-turbo">gpt-4-turbo</option>
               <option value="gpt-3.5-turbo">gpt-3.5-turbo(4k)</option>
               <option value="gpt-3.5-turbo-16k">gpt-3.5-turbo-16k</option>
               <option value="gpt-4">gpt-4(8k)</option>
